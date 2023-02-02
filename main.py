@@ -27,7 +27,7 @@ class Transaksi:
                 raise ValueError
             else:
                 self.keranjang[nama] = [harga, jumlah]
-                return f"Item {nama}:{harga} dengan jumlah {jumlah} telah dimasukkan!"
+                print(f"Item {nama}:{harga} dengan jumlah {jumlah} telah dimasukkan!")
         except ValueError:
             print("harga atau jumlah tidak boleh kurang dari 0")
       
@@ -148,53 +148,54 @@ class Transaksi:
               + str(tot_price).ljust(col_width[3])
           )
       
-  def total_pembelian(self):
-    """Untuk passing total pembelian"""
-      self.total_harga = 0 
-      self.total_tipe = 0
-      self.total_kuantitas = 0
+    def total_pembelian(self):
+        """Untuk passing total pembelian"""
+        self.total_harga = 0 
+        self.total_tipe = 0
+        self.total_kuantitas = 0
 
-      for nama, value in self.keranjang.items():
-          self.total_harga += value[0] * value[1]
-          self.total_tipe = len(self.keranjang)
-          self.total_kuantitas += value[1] 
-      print(" ")
-      print(f"Total harga: Rp{self.total_harga}")
-      print(f"Jumlah tipe barang: {self.total_tipe}")
-      print(f"Jumlah kuantitas barang: {self.total_kuantitas}")
-      print(" ")
+        for nama, value in self.keranjang.items():
+            self.total_harga += value[0] * value[1]
+            self.total_tipe = len(self.keranjang)
+            self.total_kuantitas += value[1] 
+        print(" ")
+        print(f"Total harga: Rp{self.total_harga}")
+        print(f"Jumlah tipe barang: {self.total_tipe}")
+        print(f"Jumlah kuantitas barang: {self.total_kuantitas}")
+        print(" ")
           
-  def discount_input(self):
-    """Logic agar discount dapat terinput pada total pembelian"""
-      if self.total_harga >= 500000:
-          discount = self.total_harga * 0.10
-      elif self.total_harga >= 300000:
-          discount =  self.total_harga * 0.08
-      elif self.total_harga >= 200000:
-          discount = self.total_harga * 0.05
-      else:
-          discount = self.total_harga
-      self.final_price = self.total_harga - discount
+    def discount_input(self):
+        """Logic agar discount dapat terinput pada total pembelian"""
+        if self.total_harga >= 500000:
+            discount = self.total_harga * 0.10
+            
+        elif self.total_harga >= 300000:
+            discount =  self.total_harga * 0.08
+        elif self.total_harga >= 200000:
+            discount = self.total_harga * 0.05
+        else:
+            discount = self.total_harga
+        self.final_price = self.total_harga - discount
 
-      print(f"Setelah discount: {self.final_price}")
-      if self.final_price == self.total_harga:
-          print("Naikkan belanja mu agar dapat discount!")
-      else:
-          print("Yeay dapet discount!")
+        print(f"Setelah discount: {self.final_price}")
+        if self.final_price == self.total_harga:
+            print("Naikkan belanja mu agar dapat discount!")
+        else:
+            print("Yeay dapet discount!")
 
-  def pembayaran(self, uang):
-    """Logic Pembayaran bisa dilakukan sesuai input nominal harga"""
-      try:
-          if uang < 0:
+    def pembayaran(self, uang):
+        """Logic Pembayaran bisa dilakukan sesuai input nominal harga"""
+        try:
+            if uang < 0:
               raise ValueError
-          elif uang < self.final_price:
+            elif uang < self.final_price:
               print("Pembayaran Gagal, kamu kere gak cukup uangnya")
-          else:
+            else:
               kembalian = uang - self.final_price
               print(f"kembalian : {kembalian}")
               print("Terimakasih telah berbelanja!")
               self.keranjang.clear()
-      except ValueError:
-          print("GAK BISA 0")
+        except ValueError:
+            print("Kamu belum input nominal! ")
       
 

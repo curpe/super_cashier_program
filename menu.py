@@ -29,7 +29,9 @@ Input pengguna dikast ke integer atau string, dan manajemen error dilakukan meng
 
 
 while True:
-
+    print("-" * 60)
+    print("SELAMAT DATANG DI PACSHIER")
+    print("-" * 60)
     print("1. Tambahkan Barang")
     print("2. Hapus Barang")
     print("3. Edit Nama Barang")
@@ -39,8 +41,8 @@ while True:
     print("7. Lihat Keranjang")
     print("8. Lihat Total Belanja")
     print("9. Keluar dari Sistem")
-    print(" ")
     print("10. Check out barang?")
+    print(" ")
 
     try:
         choice = int(input("Masukkan nomor : "))
@@ -76,7 +78,7 @@ while True:
             """Mengedit harga barang yang ada di keranjang belanja."""
             edit_harga_barang = str(input("Barang yang mau di ganti apa?: "))
             harga_barang_baru = int(input("Input harga baru nya: "))
-            ts.update_jumlah_item(edit_harga_barang, harga_barang_baru)
+            ts.update_harga_item(edit_harga_barang, harga_barang_baru)
             ts.check_order()
 
 
@@ -103,7 +105,7 @@ while True:
             ts.discount_input() 
 
         elif choice == 9:
-            """Keluar dari sistem kasir"""
+            """Keluar dari sistem kasir secara total"""
             break
 
         elif choice == 10:
@@ -130,4 +132,3 @@ while True:
         print(" ")
         print("Inputan Anda Salah")
         print(" ")
-
