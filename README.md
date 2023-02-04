@@ -33,7 +33,7 @@
     
 - 2. After the code appears on your IDE, Open your `terminal`.
 
-- 3. type this in your terminal:
+- 3. Type this in your terminal:
     ```
     python menu.py
     ```
