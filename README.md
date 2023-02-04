@@ -37,19 +37,19 @@
     python menu.py
     ```
 - 4. And you will see this when the code running. 
-    - <img width="578" alt="Initialization" src="https://user-images.githubusercontent.com/94776243/216772219-f1229b5b-d59f-4b1c-aea1-2cb3f198f207.png">
-
+    <img width="578" alt="Initialization" src="https://user-images.githubusercontent.com/94776243/216772219-f1229b5b-d59f-4b1c-aea1-2cb3f198f207.png">
 
 ## Test case and result
 
 1. Method `add_barang()` with the customer can freely input their items.
-        <img>
+        <img width="549" alt="add" src="https://user-images.githubusercontent.com/94776243/216772351-c99ad17c-c350-4a57-9a25-2841f2b835ac.png">
 
 2. Method `delete_item()` particular items after they added the item by themselves. 
-        <img>
+        <img width="549" alt="delete" src="https://user-images.githubusercontent.com/94776243/216772374-8d89afb3-0ac7-4acf-b820-583076902efc.png">
+
 
 3. Method `update_nama_item()` to update the name of particular item.
-        <img>
+        <img width="469" alt="edit_name" src="https://user-images.githubusercontent.com/94776243/216772394-233ee41a-fa12-4301-8401-291fcdbc5c5e.png">
 
 4. Method `update_jumlah_item()` to update the quantity of particular item.
         <img>
