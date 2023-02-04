@@ -1,11 +1,12 @@
-### A guide to Python super_cashier_program :+1:
+# *A guide to Python super_cashier_program* :+1:
 
 ## Objective Notes 
 
 *Mesin Kasir* merupakan program untuk mempermudah customer dalam memasukkan item kedalam sebuah `keranjang` yang nantinya didalam object tersebut, kita bisa melihat item yang sudah kita isi, merubah item tersebut, menentukan jumlah nya, dan membuat total harga sehingga customer dapat membayar dari logic yang dibuat. 
 
 ### Project duration and timeline
-- January to February 2023 
+- January to February 2023
+- it took me "countless days" to code as i'm not really familiar with programming, but it pays me after all. 
 
 ### Methodology concept Applied on this project
 - Object Oriented Programming (OOP)
