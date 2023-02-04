@@ -61,21 +61,21 @@
         <img width="542" alt="show_basket" src="https://user-images.githubusercontent.com/94776243/216772490-45f30f18-b77b-41e3-96b6-e9eef61b6801.png">
 
 7. Method `total_pembelian()` + `discount_inputted()` to check the total price, total quantity, total type of item and see if the price were match with discount scheme.
-    <img width="538" alt="see_transaction" src="https://user-images.githubusercontent.com/94776243/216772505-733db17c-6c4c-44cf-ab15-a6a5c3842c29.png">
+        <img width="538" alt="see_transaction" src="https://user-images.githubusercontent.com/94776243/216772505-733db17c-6c4c-44cf-ab15-a6a5c3842c29.png">
 
 8. Make a simple payment transaction on `pembayaran()` method. 
 
-    - If the nominal below than the total price, you will see this 
-        <img width="540" alt="transaction_handling" src="https://user-images.githubusercontent.com/94776243/216772551-dfd163ab-8f99-4bb0-b787-7c096cc3fce2.png">
+    - If the nominal below than the total price, you will see this:
+            <img width="540" alt="transaction_handling" src="https://user-images.githubusercontent.com/94776243/216772551-dfd163ab-8f99-4bb0-b787-7c096cc3fce2.png">
 
-    - Say YES if you want to try again, check the order and the item is still there. 
-        <img width="648" alt="check_order_after_yes" src="https://user-images.githubusercontent.com/94776243/216772588-c2509886-f810-4153-929f-bc7532c19706.png">
+    - Say YES if you want to try again, check the order and the item is still there: 
+            <img width="648" alt="check_order_after_yes" src="https://user-images.githubusercontent.com/94776243/216772588-c2509886-f810-4153-929f-bc7532c19706.png">
 
-    - Input the nominal match with *total sesuai harga* and you will see this message.
-        <img width="365" alt="transaction_success" src="https://user-images.githubusercontent.com/94776243/216772600-9d60916d-a7a2-4168-a94b-556e38df4673.png">
+    - Input the nominal match with *total sesuai harga* and you will see this message:
+            <img width="365" alt="transaction_success" src="https://user-images.githubusercontent.com/94776243/216772600-9d60916d-a7a2-4168-a94b-556e38df4673.png">
 
 
-    - And if you select to input YES, then the basket were removed if you select check in the check order method.
+    - And if you select to input YES, then the basket were removed if you select check in the check order method:
         <img width="591" alt="basket_empty" src="https://user-images.githubusercontent.com/94776243/216772620-16cfc043-d1c5-4e74-a925-cb3a407f242b.png">
 
 9. After all, you can reset the entire basket by `reset_item()` method.
