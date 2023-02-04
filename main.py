@@ -27,6 +27,7 @@ class Transaksi:
                 raise ValueError
             else:
                 self.keranjang[nama] = [harga, jumlah]
+                print(" ")
                 print(f"Item {nama}:{harga} dengan jumlah {jumlah} telah dimasukkan!")
         except ValueError:
             print("harga atau jumlah tidak boleh kurang dari 0")
@@ -90,9 +91,13 @@ class Transaksi:
                 self.keranjang[nama][1] = jumlah_baru
                 return f"{jumlah_baru} telah diperbarui di keranjang!"
         except ValueError:
+            print(" ")
             print("Jumlah tidak boleh kosong!")
+            print(" ")
         except KeyError:
+            print(" ")
             print("Barang yang kamu cari tidak ada!")
+            print(" ")
 
     def update_harga_item(self, nama, harga_baru):  # update harga dalam dictionary
         """
@@ -112,9 +117,13 @@ class Transaksi:
                 self.keranjang[nama][0] = harga_baru #salah disini kemaren, salah index sama harga_baru gak usah list
                 return f"{harga_baru} telah diperbarui di keranjang!"
         except ValueError:
+            print(" ")
             print("Jumlah tidak boleh kosong!")
+            print(" ")
         except KeyError:
+            print(" ")
             print("Barang yang kamu cari tidak ada!")
+            print(" ")
   
     def reset_item(self): #untuk reset seluruh item yang ada di keranjang
         """
@@ -132,6 +141,7 @@ class Transaksi:
       value1 = [value[0] for value in self.keranjang.values()]
       value2 = [value[1] for value in self.keranjang.values()]
       col_width = [15, 15, 15, 15]
+      print(" ")
       print(
           "Nama Item".ljust(col_width[0])
           + "Jumlah".ljust(col_width[1])
@@ -158,7 +168,6 @@ class Transaksi:
             self.total_harga += value[0] * value[1]
             self.total_tipe = len(self.keranjang)
             self.total_kuantitas += value[1] 
-        print(" ")
         print(f"Total harga: Rp{self.total_harga}")
         print(f"Jumlah tipe barang: {self.total_tipe}")
         print(f"Jumlah kuantitas barang: {self.total_kuantitas}")
@@ -178,10 +187,15 @@ class Transaksi:
         self.final_price = self.total_harga - discount
 
         print(f"Setelah discount: {self.final_price}")
+        print(" ")
         if self.final_price == self.total_harga:
+            print(" ")
             print("Naikkan belanja mu agar dapat discount!")
+            print(" ")
         else:
+            print(" ")
             print("Yeay dapet discount!")
+            print(" ")
 
     def pembayaran(self, uang):
         """Logic Pembayaran bisa dilakukan sesuai input nominal harga"""
@@ -189,13 +203,19 @@ class Transaksi:
             if uang < 0:
               raise ValueError
             elif uang < self.final_price:
+              print(" ")
               print("Pembayaran Gagal, uang tidak cukup")
+              print(" ")
             else:
               kembalian = uang - self.final_price
+              print(" ")
               print(f"kembalian : {kembalian}")
               print("Terimakasih telah berbelanja!")
+              print(" ")
               self.keranjang.clear()
         except ValueError:
+            print(" ")
             print("Kamu belum input nominal! ")
+            print(" ")
       
 

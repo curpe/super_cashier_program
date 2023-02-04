@@ -81,7 +81,6 @@ while True:
             ts.update_harga_item(edit_harga_barang, harga_barang_baru)
             ts.check_order()
 
-
         elif choice == 6:
             """Mereset total transaksi di keranjang belanja"""
             reset_transaksi = str(input("KAMU YAKIN? YES/NO: "))
@@ -106,7 +105,12 @@ while True:
 
         elif choice == 9:
             """Keluar dari sistem kasir secara total"""
-            break
+            keluar = str(input("Yakin mau keluar YES/NO : "))
+            if keluar.upper() == "YES":
+                break
+            else:
+                keluar.upper() == "NO"
+                continue 
 
         elif choice == 10:
             """Customer membayar transaksi dari total di keranjang belanja"""
