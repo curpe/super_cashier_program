@@ -14,13 +14,13 @@
 - Error Handling
 - Docstring
 - Composite Data Structure
-- Loop and Branching
+- Looping and Branching
 
 ### Objective 
 - Customer create Transaction with Methods.
 - Customer can `Add Item`, `Add Quanitity`, and `Add Price` to each item.
 - After adding `item`,`quantity`, and `price`, they can update to each one of the function.
-- Customer can `remove` particular item of they own
+- Customer can `remove` particular item of they own.
 - Customer can do `reset` the item of the entire basket.
 - Add `discount` logics if the total price were sufficient.
 
