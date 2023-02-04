@@ -24,7 +24,8 @@
 - Add `discount` logics if the total price were sufficient.
 
 ## The Diagram Journey
- <Attach the image here please>
+ ![python_cashier_project drawio](https://user-images.githubusercontent.com/94776243/216772174-a51f957a-b141-40c8-90cf-cb9fb4f3b751.png)
+
 
 
 
