@@ -89,7 +89,7 @@
 ## Conclusion and Suggestion
 - Kita bisa menambah Library seperti table agar lebih rapih.
 - Masih perlu banyak improvement dan exploration dalam code.
-- Diagram masih belum di update dengan code yang terbaru, tetapi secara garis besar concept nya mendekati dengan diagram nya.
+- Diagram masih belum di update dengan code yang terbaru, tetapi secara garis besar code structure nya mendekati dengan diagram nya.
 
 ### :blush: Hope this guide will help :blush:
 
