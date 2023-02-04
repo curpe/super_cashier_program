@@ -1,4 +1,6 @@
-# *A guide to Python super_cashier_program* :+1:
+# *A guide to Python super_cashier_program* :rocket:
+- Why super? trying my best to make this as intuitive as i can (lol :+1:
+
 
 ## Objective Notes 
 
@@ -7,7 +9,7 @@
 ### Project duration and timeline
 - January to February 2023
 
-### Methodology concept Applied on this project
+### Methodology and concept applied on this project
 - Object Oriented Programming (OOP)
 - Error Handling
 - Docstring
@@ -47,7 +49,7 @@
         <img width="549" alt="delete" src="https://user-images.githubusercontent.com/94776243/216772374-8d89afb3-0ac7-4acf-b820-583076902efc.png">
 
 
-3. Method `update_nama_item()` to update the name of particular item.
+3. Method `update_nama_item()` to update *"Kentang"* to *"Kentung"*.
         <img width="469" alt="edit_name" src="https://user-images.githubusercontent.com/94776243/216772394-233ee41a-fa12-4301-8401-291fcdbc5c5e.png">
 
 4. Method `update_jumlah_item()` to update the quantity of particular item.
