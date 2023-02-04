@@ -1,5 +1,5 @@
 # *A guide to Python super_cashier_program* :rocket:
-- Why super? trying my best to make this as intuitive as i can (lol :+1:
+- Why super? well... i'm trying my best to make the code as intuitive as i can :grin:
 
 
 ## Objective Notes 
