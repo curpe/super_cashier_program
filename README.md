@@ -75,13 +75,13 @@
             <img width="365" alt="transaction_success" src="https://user-images.githubusercontent.com/94776243/216772600-9d60916d-a7a2-4168-a94b-556e38df4673.png">
 
 
-    - And if you select to input YES, then the basket were removed if you select check in the check order method:
+    - If you input "YES", then items in the basket will removed.
         <img width="591" alt="basket_empty" src="https://user-images.githubusercontent.com/94776243/216772620-16cfc043-d1c5-4e74-a925-cb3a407f242b.png">
 
 9. After all, you can reset the entire basket by `reset_item()` method.
         <img width="533" alt="reset_basket" src="https://user-images.githubusercontent.com/94776243/216772652-6eead311-cf87-44c7-bedb-9e54f2b0aa58.png">
 
-10. exit the PACSHIER system by press no `9`.
+10. exit the PACSHIER system by pressing no `9` on your terminal.
         <img width="451" alt="exit" src="https://user-images.githubusercontent.com/94776243/216772692-103163aa-fe2a-4e02-9ce4-07f5e73f7a49.png">
       
 
