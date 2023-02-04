@@ -28,70 +28,70 @@
 
 
 ## Test this code in your IDE.
-    - 1. Clone this repositery.
+- 1. Clone this repositery.
     
-    - 2. After the code appears on your IDE, Open your `terminal`
+- 2. After the code appears on your IDE, Open your `terminal`
 
 
-    - 3. add this
+- 3. add this
     ```
     python menu.py
     ```
 
-    - 4. And you will see this when the code running. "image initialization"
+- 4. And you will see this when the code running. "image initialization"
 
 ## Test case and result
 
-    1. Method `add_barang()` with the customer can freely input their items.
+1. Method `add_barang()` with the customer can freely input their items.
         <img>
 
-    2. Method `delete_item()` particular items after they added the item by themselves. 
+2. Method `delete_item()` particular items after they added the item by themselves. 
         <img>
 
-    3. Method `update_nama_item()` to update the name of particular item.
+3. Method `update_nama_item()` to update the name of particular item.
         <img>
 
-    4. Method `update_jumlah_item()` to update the quantity of particular item.
+4. Method `update_jumlah_item()` to update the quantity of particular item.
         <img>
 
-    5. Method `update_harga_item()` to update the price of particular item.
+5. Method `update_harga_item()` to update the price of particular item.
         <img>
 
-    6. Method `check_order()` see the entire item that were inputted.
+6. Method `check_order()` see the entire item that were inputted.
         <img>
 
-    7. Method `total_pembelian()` + `discount_inputted()` to check the total price, total quantity, total type of item and see if the price were match with discount scheme.
-
-        <img>
-
-    8. Make a simple payment transaction on `pembayaran()` method. 
-
-        - If the nominal below than the total price, you will see this 
-        <img>
-
-        - Say YES if you want to try again, check the order and the item is still there. 
-        <img>
-
-        - Input the nominal match with *total sesuai harga* and you will see this message
+7. Method `total_pembelian()` + `discount_inputted()` to check the total price, total quantity, total type of item and see if the price were match with discount scheme.
 
         <img>
 
-        - And if you select to input YES, then the basket were removed if you select to check the order.
+8. Make a simple payment transaction on `pembayaran()` method. 
+
+    - If the nominal below than the total price, you will see this 
+        <img>
+
+    - Say YES if you want to try again, check the order and the item is still there. 
+        <img>
+
+    - Input the nominal match with *total sesuai harga* and you will see this message
 
         <img>
 
-    9. After all, you can reset the entire basket by `reset_item()` method.
+    - And if you select to input YES, then the basket were removed if you select to check the order.
 
         <img>
 
-    10. exit the PACSHIER system by press no `9`
+9. After all, you can reset the entire basket by `reset_item()` method.
+
+        <img>
+
+10. exit the PACSHIER system by press no `9`
 
         <img>
       
 
 ## Conclusion and Suggestion
-    - Kita bisa menambah Library seperti table agar lebih rapih.
-    - Masih perlu banyak improvement dan exploration dalam code.
+- Kita bisa menambah Library seperti table agar lebih rapih.
+- Masih perlu banyak improvement dan exploration dalam code.
 
 ### :blush: Hope this guide will help :blush:
 
