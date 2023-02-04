@@ -23,10 +23,8 @@
 - Customer can do `reset` the item of the entire basket.
 - Add `discount` logics if the total price were sufficient.
 
-## The Diagram Journey
+## The Diagram Journey (old version)
  ![python_cashier_project drawio](https://user-images.githubusercontent.com/94776243/216772174-a51f957a-b141-40c8-90cf-cb9fb4f3b751.png)
-
-
 
 
 ## Test this code in your IDE.
@@ -34,14 +32,13 @@
     
 - 2. After the code appears on your IDE, Open your `terminal`
 
-
 - 3. type this in your terminal
     ```
     python menu.py
     ```
-
 - 4. And you will see this when the code running. 
-    - <"image initialization">
+    - <img width="578" alt="Initialization" src="https://user-images.githubusercontent.com/94776243/216772219-f1229b5b-d59f-4b1c-aea1-2cb3f198f207.png">
+
 
 ## Test case and result
 
@@ -95,6 +92,7 @@
 ## Conclusion and Suggestion
 - Kita bisa menambah Library seperti table agar lebih rapih.
 - Masih perlu banyak improvement dan exploration dalam code.
+- Diagram masih belum di update dengan code yang terbaru, tetapi secara garis besar concept nya mendekati dengan diagram nya.
 
 ### :blush: Hope this guide will help :blush:
 
