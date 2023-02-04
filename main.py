@@ -189,7 +189,7 @@ class Transaksi:
             if uang < 0:
               raise ValueError
             elif uang < self.final_price:
-              print("Pembayaran Gagal, kamu kere gak cukup uangnya")
+              print("Pembayaran Gagal, uang tidak cukup")
             else:
               kembalian = uang - self.final_price
               print(f"kembalian : {kembalian}")
