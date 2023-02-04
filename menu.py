@@ -4,13 +4,13 @@ ts = Transaksi()
 
 
 """
-Program ini adalah sistem keranjang belanja, yang memungkinkan pengguna untuk menambah, menghapus, mengedit, 
+Program cashier ini memungkinkan customer untuk menambah, menghapus, mengedit, 
 dan melihat barang dalam keranjang belanja, dan melakukan proses checkout dengan menghitung total pembelian, diskon, dan pembayaran.
 
 Kelas Transaksi dari modul utama memegang informasi keranjang belanja dan semua operasi yang dilakukan. 
-Program ini menggunakan instance kelas Transaksi, ts, untuk melakukan semua operasi.
+Program ini menggunakan instance kelas Transaksi, ts untuk melakukan semua operasi.
 
-Program berjalan dalam sebuah loop while, di mana pengguna diminta untuk memilih dari 10 opsi:
+Program berjalan dalam sebuah loop while, di mana customer diminta untuk memilih dari 10 opsi:
 
 Tambah barang
 Hapus barang
@@ -24,7 +24,7 @@ Keluar dari sistem
 Proses checkout
 
 Untuk setiap opsi, program melakukan tindakan yang sesuai dengan memanggil metode yang sesuai dalam kelas Transaksi. 
-Input pengguna dikast ke integer atau string, dan manajemen error dilakukan menggunakan blok try-except.
+Input pengguna di cast ke integer atau string, dan manajemen error dilakukan menggunakan blok try-except.
 """
 
 
