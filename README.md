@@ -6,7 +6,6 @@
 
 ### Project duration and timeline
 - January to February 2023
-- it took me "countless days" to code as i'm not really familiar with programming, but it pays me after all. 
 
 ### Methodology concept Applied on this project
 - Object Oriented Programming (OOP)
