@@ -52,41 +52,37 @@
         <img width="469" alt="edit_name" src="https://user-images.githubusercontent.com/94776243/216772394-233ee41a-fa12-4301-8401-291fcdbc5c5e.png">
 
 4. Method `update_jumlah_item()` to update the quantity of particular item.
-        <img>
+        <img width="415" alt="edit_quantity" src="https://user-images.githubusercontent.com/94776243/216772452-d7434241-cd3a-4e2f-8b18-3aa71fc7aab0.png">
 
 5. Method `update_harga_item()` to update the price of particular item.
-        <img>
+        <img width="400" alt="edit_price" src="https://user-images.githubusercontent.com/94776243/216772468-ab067126-38f3-426d-8bb4-64b2683bdb0f.png">
 
 6. Method `check_order()` see the entire item that were inputted.
-        <img>
+        <img width="542" alt="show_basket" src="https://user-images.githubusercontent.com/94776243/216772490-45f30f18-b77b-41e3-96b6-e9eef61b6801.png">
 
 7. Method `total_pembelian()` + `discount_inputted()` to check the total price, total quantity, total type of item and see if the price were match with discount scheme.
-
-    <img>
+    <img width="538" alt="see_transaction" src="https://user-images.githubusercontent.com/94776243/216772505-733db17c-6c4c-44cf-ab15-a6a5c3842c29.png">
 
 8. Make a simple payment transaction on `pembayaran()` method. 
 
     - If the nominal below than the total price, you will see this 
-        <img>
+        <img width="540" alt="transaction_handling" src="https://user-images.githubusercontent.com/94776243/216772551-dfd163ab-8f99-4bb0-b787-7c096cc3fce2.png">
 
     - Say YES if you want to try again, check the order and the item is still there. 
-        <img>
+        <img width="648" alt="check_order_after_yes" src="https://user-images.githubusercontent.com/94776243/216772588-c2509886-f810-4153-929f-bc7532c19706.png">
 
-    - Input the nominal match with *total sesuai harga* and you will see this message
+    - Input the nominal match with *total sesuai harga* and you will see this message.
+        <img width="365" alt="transaction_success" src="https://user-images.githubusercontent.com/94776243/216772600-9d60916d-a7a2-4168-a94b-556e38df4673.png">
 
-        <img>
 
-    - And if you select to input YES, then the basket were removed if you select to check the order.
-
-        <img>
+    - And if you select to input YES, then the basket were removed if you select check in the check order method.
+        <img width="591" alt="basket_empty" src="https://user-images.githubusercontent.com/94776243/216772620-16cfc043-d1c5-4e74-a925-cb3a407f242b.png">
 
 9. After all, you can reset the entire basket by `reset_item()` method.
+        <img width="533" alt="reset_basket" src="https://user-images.githubusercontent.com/94776243/216772652-6eead311-cf87-44c7-bedb-9e54f2b0aa58.png">
 
-        <img>
-
-10. exit the PACSHIER system by press no `9`
-
-        <img>
+10. exit the PACSHIER system by press no `9`.
+        <img width="451" alt="exit" src="https://user-images.githubusercontent.com/94776243/216772692-103163aa-fe2a-4e02-9ce4-07f5e73f7a49.png">
       
 
 ## Conclusion and Suggestion
