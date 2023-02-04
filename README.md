@@ -4,43 +4,43 @@
 
 *Mesin Kasir* merupakan program untuk mempermudah customer dalam memasukkan item kedalam sebuah `keranjang` yang nantinya didalam object tersebut, kita bisa melihat item yang sudah kita isi, merubah item tersebut, menentukan jumlah nya, dan membuat total harga sehingga customer dapat membayar dari logic yang dibuat. 
 
-- ### Project duration and timeline
-    - January to February 2023 
+### Project duration and timeline
+- January to February 2023 
 
-- ### Methodology concept Applied on this project
-    - Object Oriented Programming (OOP)
-    - Error Handling
-    - Docstring
-    - Composite Data Structure
-    - Loop and Branching
+### Methodology concept Applied on this project
+- Object Oriented Programming (OOP)
+- Error Handling
+- Docstring
+- Composite Data Structure
+- Loop and Branching
 
-- ### Objective 
- - Customer create Transaction with Methods.
- - Customer can `Add Item`, `Add Quanitity`, and `Add Price` to each item.
- - After adding `item`,` quantity`, and `price`, they can update to each one of the function.
- - Customer can `remove` particular item of they own
- - Customer can do `reset` the item of the entire basket.
- - Add `discount` logics if the total price were sufficient.
+### Objective 
+- Customer create Transaction with Methods.
+- Customer can `Add Item`, `Add Quanitity`, and `Add Price` to each item.
+- After adding `item`,` quantity`, and `price`, they can update to each one of the function.
+- Customer can `remove` particular item of they own
+- Customer can do `reset` the item of the entire basket.
+- Add `discount` logics if the total price were sufficient.
 
- - ### Diagram Journey
+## The Diagram Journey
  <Attach the image here please>
 
 
 
-- ## Test this code in your IDE.
-    1. Clone this repositery.
+## Test this code in your IDE.
+    - 1. Clone this repositery.
     
-    2. After the code appears on your IDE, Open your `terminal`
+    - 2. After the code appears on your IDE, Open your `terminal`
 
 
-    3. add this
+    - 3. add this
     ```
     python menu.py
     ```
 
-    4. And you will see this when the code running. "image initialization"
+    - 4. And you will see this when the code running. "image initialization"
 
-- ## Test case and result
+## Test case and result
 
     1. Method `add_barang()` with the customer can freely input their items.
         <img>
@@ -89,10 +89,10 @@
         <img>
       
 
-- ## Conclusion and Suggestion
+## Conclusion and Suggestion
     - Kita bisa menambah Library seperti table agar lebih rapih.
     - Masih perlu banyak improvement dan exploration dalam code.
 
-### :blush: I hope this helps :blush:
+### :blush: Hope this guide will help :blush:
 
 **Copyright** (c) 2023 Abhi Abduh
