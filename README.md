@@ -33,12 +33,13 @@
 - 2. After the code appears on your IDE, Open your `terminal`
 
 
-- 3. add this
+- 3. type this in your terminal
     ```
     python menu.py
     ```
 
-- 4. And you will see this when the code running. "image initialization"
+- 4. And you will see this when the code running. 
+    - <"image initialization">
 
 ## Test case and result
 
@@ -62,7 +63,7 @@
 
 7. Method `total_pembelian()` + `discount_inputted()` to check the total price, total quantity, total type of item and see if the price were match with discount scheme.
 
-        <img>
+    <img>
 
 8. Make a simple payment transaction on `pembayaran()` method. 
 
