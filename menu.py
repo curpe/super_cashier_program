@@ -30,7 +30,7 @@ Input pengguna di cast ke integer atau string, dan manajemen error dilakukan men
 
 while True:
     print("-" * 60)
-    print("PYTHON CASHIER PROGRAM v1.3 (c) Abhi Abduh")
+    print("PYTHON CASHIER PROGRAM v1.3")
     print("-" * 60)
     print("1. Tambahkan Barang")
     print("2. Hapus Barang")
