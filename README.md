@@ -29,11 +29,11 @@
 
 
 ## Test this code in your IDE.
-- 1. Clone this repositery.
+- 1. Clone this repository.
     
-- 2. After the code appears on your IDE, Open your `terminal`
+- 2. After the code appears on your IDE, Open your `terminal`.
 
-- 3. type this in your terminal
+- 3. type this in your terminal:
     ```
     python menu.py
     ```
