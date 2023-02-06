@@ -183,7 +183,7 @@ class Transaksi:
         elif self.total_harga >= 200000:
             discount = self.total_harga * 0.05
         else:
-            discount = self.total_harga
+            discount = 0
         self.final_price = self.total_harga - discount
 
         print(f"Setelah discount: {self.final_price}")
