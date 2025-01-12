@@ -4,7 +4,7 @@
 
 ## Objective Notes 
 
-*Mesin Kasir* merupakan program untuk mempermudah customer dalam memasukkan item kedalam sebuah `keranjang` yang nantinya didalam object tersebut, kita bisa melihat item yang sudah kita isi, merubah item tersebut, menentukan jumlah nya, dan membuat total harga sehingga customer dapat membayar dari logic yang dibuat. 
+Cashier Machine is a program designed to make it easier for customers to add items to a cart. Within this object, customers can view the items they have added, modify those items, specify quantities, and calculate the total price. This allows customers to complete their payment based on the logic built into the system.
 
 ### Project duration and timeline
 - January to February 2023
